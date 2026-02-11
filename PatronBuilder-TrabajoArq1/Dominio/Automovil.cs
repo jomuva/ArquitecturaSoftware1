@@ -5,11 +5,10 @@ namespace Dominio
 {
     public class Automovil
     {
+        public string Marca { get; }
         public string Motor { get; }
         public string Color { get; }
         public string Llantas { get; }
-
-
         public string SistemaSonido { get; }
         public bool TechoSolar { get; }
         public bool GPS { get; }
@@ -17,7 +16,8 @@ namespace Dominio
 
         private Automovil(Builder builder)
         {
-            Motor = builder._motor ?? "Motor 4 tiempos";
+            Marca = builder._marca ?? "Ford";
+            Motor = builder._motor ?? throw new ArgumentException("El motor de la marca "+ builder._marca + " es obligatorio");
             Color = builder._color ?? "Blanco Perla";
             Llantas = builder._llantas ?? "17\" Aleación";
             SistemaSonido = builder._sistemaSonido ?? "Estándar 6 parlantes";
@@ -30,6 +30,7 @@ namespace Dominio
         {
             return
                 $"Configuración del vehículo:\n" +
+                $"  Marca:           {Marca}\n" +
                 $"  Motor:           {Motor}\n" +
                 $"  Color:           {Color}\n" +
                 $"  Llantas:         {Llantas}\n" +
@@ -41,6 +42,7 @@ namespace Dominio
 
         public class Builder
         {
+            internal string? _marca;
             internal string? _motor;
             internal string? _color;
             internal string? _llantas;
@@ -49,7 +51,8 @@ namespace Dominio
             internal bool _gps;
             internal string? _interior;
 
-            public Builder ConMotor(string motor) { _motor = motor; return this; }
+            public Builder Marca(string marca) { _marca = marca; return this; }
+            public Builder Motor(string motor) { _motor = motor; return this; }
             public Builder ConColor(string color) { _color = color; return this; }
             public Builder ConLlantas(string llantas) { _llantas = llantas; return this; }
             public Builder ConSistemaSonido(string sistema) { _sistemaSonido = sistema; return this; }

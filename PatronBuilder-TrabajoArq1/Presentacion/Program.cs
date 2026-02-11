@@ -2,8 +2,11 @@
 
 Console.WriteLine("=== DEMOSTRACIÓN DEL PATRÓN BUILDER ESCENARIO 1 ARQU1 ===\n");
 
-var auto1 = new Automovil.Builder()
-    .ConMotor("3.0L V6 Biturbo 355 hp")
+try
+{
+    var auto1 = new Automovil.Builder()
+    .Marca("Audi")
+    .Motor("3.0L V6 Biturbo 355 hp")
     .ConColor("Negro mate")
     .ConLlantas("19\" deportivas")
     .ConSistemaSonido("Premium 12 bocinas Bose")
@@ -12,14 +15,22 @@ var auto1 = new Automovil.Builder()
     .ConInterior("Cuero Nappa")
     .Construir();
 
-Console.WriteLine("Auto completo:");
-Console.WriteLine(auto1);
-Console.WriteLine();
+    Console.WriteLine("Auto completo:");
+    Console.WriteLine(auto1);
+    Console.WriteLine();
 
-var auto2 = new Automovil.Builder()
-    .ConColor("Rojo Metalizado")
-    .ConTechoSolar(true)
-    .Construir();
+    var auto2 = new Automovil.Builder()
+        .Marca("Chevrolet")
+        .ConColor("Rojo Metalizado")
+        .ConTechoSolar(true)
+        .ConGPS(true)
+        .Construir();
 
-Console.WriteLine("Auto básico:");
-Console.WriteLine(auto2);
+    Console.WriteLine("Auto básico:");
+    Console.WriteLine(auto2);
+}
+catch (Exception ex)
+{
+    Console.WriteLine("Error al construir un automovil: " + ex.Message);
+    
+}
