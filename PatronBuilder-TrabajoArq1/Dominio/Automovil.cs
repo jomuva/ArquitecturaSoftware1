@@ -8,6 +8,8 @@ namespace Dominio
         public string Motor { get; }
         public string Color { get; }
         public string Llantas { get; }
+
+
         public string SistemaSonido { get; }
         public bool TechoSolar { get; }
         public bool GPS { get; }
