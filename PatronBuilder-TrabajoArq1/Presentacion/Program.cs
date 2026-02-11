@@ -26,7 +26,7 @@ try
         .ConGPS(true)
         .Construir();
 
-    Console.WriteLine("Auto básico:");
+    Console.WriteLine("Auto básico: ");
     Console.WriteLine(auto2);
 }
 catch (Exception ex)
