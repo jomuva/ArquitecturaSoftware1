@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Presentacion\\Presentacion.csproj": {}
+    "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Presentacion\\Presentacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\JonathanAlexanderMuñ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Presentacion\\Presentacion.csproj": {
+    "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Presentacion\\Presentacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Presentacion\\Presentacion.csproj",
+        "projectUniqueName": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Presentacion\\Presentacion.csproj",
         "projectName": "Presentacion",
-        "projectPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Presentacion\\Presentacion.csproj",
+        "projectPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Presentacion\\Presentacion.csproj",
         "packagesPath": "C:\\Users\\JonathanAlexanderMuñ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Presentacion\\obj\\",
+        "outputPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Presentacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj"
+              "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Dominio\\Dominio.csproj"
               }
             }
           }
