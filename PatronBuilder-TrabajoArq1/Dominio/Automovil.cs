@@ -17,7 +17,7 @@ namespace Dominio
 
         private Automovil(Builder builder)
         {
-            Motor = builder._motor ?? "V6 Turbo";
+            Motor = builder._motor ?? "Motor 4 tiempos";
             Color = builder._color ?? "Blanco Perla";
             Llantas = builder._llantas ?? "17\" Aleación";
             SistemaSonido = builder._sistemaSonido ?? "Estándar 6 parlantes";
