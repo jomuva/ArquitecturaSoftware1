@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fPRRlfA3W1k=",
+  "dgSpecHash": "aKBq410BM0w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\JonathanAlexanderMuñ\\Documents\\Personal\\Maestria Ing Software\\Arquitectura de software 1\\ArquitecturaSoftware1\\PatronBuilder-TrabajoArq1\\Presentacion\\Presentacion.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/dayanvelasquez/Documents/repos/MAESTRIA/ArquitecturaSoftware1/PatronBuilder-TrabajoArq1/Presentacion/Presentacion.csproj",
+  "expectedPackageFiles": [
+    "/Users/dayanvelasquez/.nuget/packages/microsoft.netcore.app.ref/8.0.23/microsoft.netcore.app.ref.8.0.23.nupkg.sha512",
+    "/Users/dayanvelasquez/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.23/microsoft.aspnetcore.app.ref.8.0.23.nupkg.sha512",
+    "/Users/dayanvelasquez/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.23/microsoft.netcore.app.host.osx-arm64.8.0.23.nupkg.sha512"
+  ],
   "logs": []
 }
