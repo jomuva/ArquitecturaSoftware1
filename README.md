@@ -1,4 +1,4 @@
-README
+README 
 
 Justificación - Escenario 1 (Automóvil)
 
