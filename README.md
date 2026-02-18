@@ -9,8 +9,10 @@ En este escenario el reto real no es “crear un carro”, sino construir un obj
 
 Además, el enfoque encaja con los beneficios esperados: mejora la legibilidad (se entiende qué se está configurando), permite omitir opcionales sin crear subclases y mantiene separada la construcción del objeto (en el builder) del objeto final. En el código esto se refleja con Automovil.Builder y métodos encadenados (estilo fluent), y al final se construye un Automovil con sus propiedades definidas desde el constructor, evitando cambios arbitrarios después de creado.
 
-![Diagrama Clases Escenario 1](./DiagramaClases/Escenario_1.jpeg)
-
+<div align="center">
+  <img src="./DiagramaClases/Escenario_1.jpeg" alt="Diagrama Clases Escenario 1" width="600">
+  <p><i>Diagrama Clases Escenario 1</i></p>
+</div>
 
 Justificación – Escenario 2 (Notificaciones por plataforma)
 
@@ -27,7 +29,10 @@ Plataforma: cómo se presenta (web, móvil, escritorio).
 
 En la solución se evidencia esa separación: Notificacion actúa como abstracción y recibe una INotificacionPlataforma (el implementador). Luego, cada notificación concreta (MensajeNotificacion, AlertNotificacion, etc.) define el contenido o intención, mientras que cada plataforma (PlataformaWeb, PlataformaMovil, PlataformaEscritorio) se encarga de la forma de presentación. Con esto se logra lo solicitado en la guía: menos clases, mayor escalabilidad y la posibilidad de cambiar la plataforma en tiempo de ejecución sin romper el diseño.
 
-![Diagrama Clases Escenario 2](./DiagramaClases/Escenario_2.jpeg)
+<div align="center">
+  <img src="./DiagramaClases/Escenario_2.jpeg" alt="Diagrama Clases Escenario 2" width="600">
+  <p><i>Diagrama Clases Escenario 2</i></p>
+</div>
 
 Justificación – Escenario 3 (Chat grupal)
 
@@ -38,4 +43,7 @@ En un chat grupal, si cada usuario tuviera que conocer a todos los demás para e
 
 Por eso se eligió Mediator, porque centraliza la comunicación en un punto: la sala de chat. En el código se evidencia con IChatMediador y SalaChat, que se encargan de registrar usuarios y redirigir mensajes (grupales o privados). Así, UsuarioChat solo se comunica con el mediador y no necesita referencias directas a otros usuarios. Esto reduce el acoplamiento, mejora el mantenimiento y hace que el sistema sea más fácil de escalar.
 
-![Diagrama Clases Escenario 3](./DiagramaClases/Escenario_3.jpeg)
+<div align="center">
+  <img src="./DiagramaClases/Escenario_3.jpeg" alt="Diagrama Clases Escenario 3" width="600">
+  <p><i>Diagrama Clases Escenario 3</i></p>
+</div>
