@@ -1,5 +1,14 @@
 # README 
+# Actividad 1: Patrones de Diseño de Software
 
+## 👥 Integrantes del Grupo
+* **Carlos Muñoz**
+* **Alejandro Lopez Castañeda**
+* **Jonathan Alexander Muñoz Vargas**
+* **Anuar Edilson Vargas Calderon**
+* **Dayan Velasquez Parrado**
+
+---
 ## Justificación - Escenario 1 (Automóvil)
 
 **Tipo:** Creacional  
