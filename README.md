@@ -2,7 +2,7 @@
 # Actividad 1: Patrones de Diseño de Software
 
 ## 👥 Integrantes del Grupo
-* **Carlos Muñoz**
+* **Jimmy Yair Nino Castellanos**
 * **Alejandro Lopez Castañeda**
 * **Jonathan Alexander Muñoz Vargas**
 * **Anuar Edilson Vargas Calderon**
